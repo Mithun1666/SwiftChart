@@ -109,7 +109,9 @@ const SwiftChart = () => {
       .style("border-width", "1px")
       .style("border-radius", "5px")
       .style("padding", "10px")
-      .style("font-family", "Onest");
+      .style("font-family", "Onest")
+      .style("text-align", "left"); 
+      
 
     const circles = g.selectAll('circle')
       .data(rawData)
